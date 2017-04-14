@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name='pyang-cisco-plugin',
-    version='0.1',
+    version='0.2',
     description=('A pyang plugin to validate Cisco native models'),
     long_description=read('README.md'),
     packages=['plugins'],
@@ -15,7 +15,7 @@ setup(
     license='New-style BSD',
     url='https://github.com/mjethanandani/pyang-cisco-plugin',
     download_url='https://github.com/mjethanandani/pyang-cisco-plugin/archive/0.1.tar.gz',
-    install_requires=['pyang'],
+    install_requires=['pyang>=1.7.1'],
     include_package_data=True,
     keywords=['yang', 'validation'],
     classifiers=[],
