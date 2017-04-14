@@ -33,4 +33,6 @@ class CiscoPlugin(lint.LintPlugin):
     def setup_ctx(self, ctx):
         if not ctx.opts.cisco:
             return
+
+        ctx.max_line_len = 70
         self._setup_ctx(ctx)

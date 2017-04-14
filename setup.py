@@ -9,7 +9,7 @@ setup(
     version='0.1',
     description=('A pyang plugin to validate Cisco native models'),
     long_description=read('README.md'),
-    packages=['pyang-cisco-plugin'],
+    packages=['plugins'],
     author='Mahesh Jethanandani',
     author_email='mjethanandani@gmail.com',
     license='New-style BSD',
